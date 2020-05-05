@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Son.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Son * son = [[Son alloc] init];
+        [son num1];
+        [son printnum];
     }
     return 0;
 }
